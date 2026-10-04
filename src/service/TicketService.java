@@ -51,4 +51,17 @@ public class TicketService {
             );
         }
     }
+
+
+    public void reopenTicket(Ticket ticket) {
+        TicketStatus oldStatus = ticket.getStatus();
+
+        ticket.reopen();
+
+        if (oldStatus != ticket.getStatus()) {
+            notificationService.send(
+                    "Заявка №" + ticket.getId() + " переоткрыта"
+            );
+        }
+    }
 }
