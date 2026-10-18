@@ -4,8 +4,6 @@ import java.time.LocalDateTime;
 
 /**
  * Заявка Help Desk.
- * Объект защищает своё состояние бизнес-методами, а поля,
- * необходимые для загрузки из БД, доступны через setter-методы.
  */
 public class Ticket {
 

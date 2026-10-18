@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.Optional;
 
 /**
- * Бизнес-логика Help Desk. Сервис работает только с контрактами
+ * Логика Help Desk. Сервис работает только с контрактами
  * репозиториев и не знает, что данные хранятся в PostgreSQL.
  */
 public class TicketService {

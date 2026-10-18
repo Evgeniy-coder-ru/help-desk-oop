@@ -9,8 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 /**
- * Контракт доступа к заявкам. Сервис зависит от интерфейса,
- * а не от конкретной реализации (JDBC, в памяти и т.д.).
+ * Контракт доступа к заявкам.
  */
 public interface TicketRepository {
 

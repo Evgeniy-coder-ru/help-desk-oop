@@ -3,9 +3,7 @@ package model;
 import java.time.LocalDateTime;
 
 /**
- * Комментарий к заявке. Поле internal отделяет внутренние заметки
- * сотрудников от сообщений, видимых клиенту.
- * Поля authorName и authorRole заполняются при JOIN-запросе.
+ * Комментарий к заявке.
  */
 public class TicketComment {
 

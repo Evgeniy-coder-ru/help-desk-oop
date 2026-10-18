@@ -20,7 +20,6 @@ import java.util.Optional;
 
 /**
  * JDBC-реализация репозитория заявок.
- * Использует PreparedStatement и try-with-resources.
  */
 public class JdbcTicketRepository implements TicketRepository {
 

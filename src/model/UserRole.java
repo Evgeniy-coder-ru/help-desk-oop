@@ -1,7 +1,7 @@
 package model;
 
 /**
- * Роль пользователя. Значения совпадают с PostgreSQL ENUM user_role.
+ * Роль пользователя.
  */
 public enum UserRole {
     CUSTOMER,

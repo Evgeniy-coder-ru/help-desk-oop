@@ -1,5 +1,5 @@
 -- 03_verification.sql
--- Проверочные запросы для преподавателя (пункт 37 методички).
+-- Проверочные запросы для преподавателя.
 
 \echo '=== tickets ==='
 SELECT * FROM tickets ORDER BY id DESC;

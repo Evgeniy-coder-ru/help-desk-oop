@@ -21,10 +21,7 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
 
-/**
- * Точка входа. Демонстрирует обязательный сценарий
- * практической работы №2 (пункт 36 методички).
- */
+
 public class Main {
 
     private static final String CUSTOMER_EMAIL = "anna@example.org";

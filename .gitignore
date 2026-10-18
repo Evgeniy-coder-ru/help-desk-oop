@@ -28,3 +28,8 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+lib/
+sql/helpdesk_db.sql
+build.ps1
+run.ps1
